@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   saludo:
@@ -10,6 +11,5 @@ jobs:
     steps:
       - name: Descargar el código
         uses: actions/checkout@v4
-
       - name: Saludar
         run: echo "Hola desde GitHub Actions"
