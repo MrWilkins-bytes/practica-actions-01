@@ -162,3 +162,17 @@ git branch --show-current
 ## 9. Resultado
 
 Se ha configurado un workflow llamado `CI` con tres eventos de ejecución: `push` sobre `main`, `workflow_dispatch` y `pull_request` dirigido a `main`. El trabajo `saludo` descarga el código y muestra el mensaje `Hola desde GitHub Actions`.
+
+## 8. Evidencias
+
+### Evidencia 01: ejecución mediante push
+
+![Evidencia 01](img/Evidencia01.png)
+
+### Evidencia 02: ejecución manual del workflow
+
+![Evidencia 02](img/Evidencia02.png)
+
+### Evidencia 03: ejecución mediante Pull Request
+
+![Evidencia 03](img/Evidencia03.png)
